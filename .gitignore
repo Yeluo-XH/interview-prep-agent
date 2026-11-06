@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.validation/
+interview-data/
+.env
+.env.*
+!.env.example
+*.log
+demo-output/
+dist/

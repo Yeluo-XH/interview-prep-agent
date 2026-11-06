@@ -1,0 +1,13 @@
+{
+  "name": "@local/dsh-interview-prep",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "求职面试备考：JD 拆解、简历差距、题库、语音模拟、证据评分与复习",
+  "repository": { "type": "git", "url": "https://github.com/Yeluo-XH/interview-prep-agent.git" },
+  "homepage": "https://github.com/Yeluo-XH/interview-prep-agent#readme",
+  "keywords": ["deepseek", "agent", "interview-preparation", "skills"],
+  "engines": { "dsh": "0.2.2-rc.1" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "scripts": { "test": "python -m unittest discover -s tests -v", "demo": "python scripts/demo.py" }
+}

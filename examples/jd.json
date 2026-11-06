@@ -1,0 +1,12 @@
+{
+  "title": "虚构示例：初级后端工程师",
+  "items": [
+    {
+      "id": "R01",
+      "requirement": "理解数据库索引并能排查慢查询",
+      "evidence": "掌握 SQL 和数据库索引，能够使用执行计划定位慢查询。",
+      "kind": "must",
+      "priority": "high"
+    }
+  ]
+}

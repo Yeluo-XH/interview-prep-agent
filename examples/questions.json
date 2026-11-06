@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "id": "Q01",
+      "question": "你会如何定位一条慢 SQL，并判断是否需要新增索引？",
+      "requirement_ids": ["R01"],
+      "difficulty": "basic",
+      "reference_answer": "先确认具体数据库、语句和业务目标，再用执行计划、访问行数与数据分布定位瓶颈，结合读写成本选择索引，并在相近数据与负载下验证改动。",
+      "followups": ["新增索引可能增加哪些写入成本？"]
+    },
+    {
+      "id": "Q02",
+      "question": "请结合一个真实案例，说明复合索引的列顺序如何确定。",
+      "requirement_ids": ["R01"],
+      "difficulty": "intermediate",
+      "reference_answer": "结合实际过滤、连接、排序和分组模式，以及数据选择性和数据库优化器行为来验证列顺序，避免脱离语句使用绝对规则。",
+      "followups": []
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "items": [
+    {
+      "id": "G01",
+      "requirement_id": "R01",
+      "status": "insufficient",
+      "evidence": "虚构简历仅写明使用 SQLite 开发课程项目，未说明执行计划或索引优化案例。",
+      "action": "补充一次真实的查询分析过程；尚未实践的内容通过小实验验证后再描述。"
+    }
+  ]
+}
